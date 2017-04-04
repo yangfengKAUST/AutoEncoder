@@ -91,7 +91,6 @@ for epoch in range(training_epochs):
         print("Epoch:", '%04d' % (epoch+1),
               "cost=", "{:.9f}".format(c))
 
-print("Optimization Finished!")
 
 # Applying encode and decode over test set
 encode_decode = sess.run(
